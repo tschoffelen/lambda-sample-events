@@ -33,7 +33,7 @@ let readmeFile = fs.readFileSync('README.md', 'utf8').split('<!-- Note for edito
 readmeFile += `<!-- Note for editors: everything below this comment is auto-generated. -->
 ${Object.entries(grouped).map(([group, events]) =>
 	`\n### ${group}\n\n${events.map((event) =>
-		`* [${event.name.replace(/^AWS /, '').replace(/^Amazon /, '')} - \`${event.id}\`](events/${event.group.toLowerCase()}/${event.id}.json)`
+		`* [${event.name.replace(/^AWS /, '').replace(/^Amazon /, '')}](events/${event.group.toLowerCase()}/${event.id}.json)`
 	).sort().join('\n')}`
 ).join('\n')}\n`;
 fs.writeFileSync(`README.md`, readmeFile, 'utf8');
