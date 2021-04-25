@@ -1,0 +1,24 @@
+{
+  "name": "lambda-sample-events",
+  "version": "1.0.0",
+  "description": "Example JSON payloads for AWS Lambda.",
+  "main": "index.js",
+  "scripts": {
+    "create-events": "node ./scripts/create-events.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tschoffelen/lambda-sample-events.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "events"
+  ],
+  "author": "Thomas Schoffelen <thomas@schof.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tschoffelen/lambda-sample-events/issues"
+  },
+  "homepage": "https://github.com/tschoffelen/lambda-sample-events#readme"
+}
