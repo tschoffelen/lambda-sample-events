@@ -25,7 +25,7 @@ for (const event of events) {
 }
 
 const indexFile = `module.exports = {${events.map((event) => `
-	${JSON.stringify(event.id)}: require("events/${event.group.toLowerCase()}/${event.id}.json")`)}
+	${JSON.stringify(event.id)}: require("./events/${event.group.toLowerCase()}/${event.id}.json")`)}
 };`;
 fs.writeFileSync(`index.js`, indexFile, 'utf8');
 
