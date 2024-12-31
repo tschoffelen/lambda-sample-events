@@ -1,1 +1,4 @@
-{}
+{
+  "Error": "ErrorName",
+  "Cause": "This is the cause of the error."
+}

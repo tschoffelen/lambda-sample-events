@@ -1,15 +1,15 @@
 name: Run tests
 
-on: [ push, pull_request ]
+on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Set up node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version: 22
       - run: yarn
       - run: node ./scripts/test.js

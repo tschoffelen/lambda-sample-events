@@ -35,5 +35,5 @@ ${Object.entries(grouped).map(([group, events]) =>
 	`\n### ${group}\n\n${events.map((event) =>
 		`* [${event.name.replace(/^AWS /, '').replace(/^Amazon /, '')}](events/${event.group.toLowerCase()}/${event.id}.json)`
 	).sort().join('\n')}`
-).join('\n')}\n`;
+).join('\n')}\n\nSample event payloads are copyright Amazon Web Services.\n`;
 fs.writeFileSync(`README.md`, readmeFile, 'utf8');

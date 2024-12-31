@@ -30,7 +30,10 @@ console.log(myPayload);
 
 * [API Gateway AWS Proxy](events/aws/apigateway-aws-proxy.json)
 * [API Gateway Authorizer](events/aws/apigateway-authorizer.json)
+* [API Gateway Http API](events/aws/apigateway-http-api-proxy.json)
+* [API Gateway Request Authorizer](events/aws/apigateway-request-authorizer.json)
 * [AppSync](events/aws/appsync-resolver.json)
+* [Application Load Balancer](events/aws/alb-request.json)
 * [Batch Get Job](events/aws/batch-get-job.json)
 * [Batch Submit Job](events/aws/batch-submit-job.json)
 * [CloudFormation Create Request](events/aws/cloudformation-create-request.json)
@@ -55,7 +58,7 @@ console.log(myPayload);
 * [Config Oversized Configuration Item Change Notification](events/aws/config-oversized-item-change-notification.json)
 * [Config Periodic Rule](events/aws/config-periodic-rule.json)
 * [Connect Contact Flow](events/aws/connect-contact-flow-event.json)
-* [DynamoDB Update](events/aws/dynamodb-update-json.json)
+* [Data Firehose Streams as Source](events/aws/kinesis-streams-as-source.json)
 * [DynamoDB Update](events/aws/dynamodb-update.json)
 * [Kinesis Data Analytics Compressed](events/aws/kinesis-analytics-compressed.json)
 * [Kinesis Data Analytics DynamoDB](events/aws/kinesis-analytics-dynamodb.json)
@@ -63,11 +66,11 @@ console.log(myPayload);
 * [Kinesis Data Analytics](events/aws/kinesis-analytics.json)
 * [Kinesis Data Firehose Apachelog](events/aws/kinesis-apachelog.json)
 * [Kinesis Data Firehose Cloudwatch Logs Processor](events/aws/kinesis-cloudwatch-logs-processor.json)
-* [Kinesis Data Firehose Streams as Source](events/aws/kinesis-streams-as-source.json)
 * [Kinesis Data Firehose Syslog](events/aws/kinesis-syslog.json)
 * [Kinesis Data Firehose](events/aws/kinesis-kinesis-firehose.json)
 * [Kinesis Data Stream](events/aws/kinesis-get-records.json)
 * [Rekognition S3 Request](events/aws/rekognition-s3-request.json)
+* [S3 Batch Operations Invocation](events/aws/s3-batch-invocation.json)
 * [S3 Delete](events/aws/s3-delete.json)
 * [S3 Put](events/aws/s3-put.json)
 * [SES Email Receiving](events/aws/ses-email-receiving.json)
@@ -76,6 +79,7 @@ console.log(myPayload);
 * [SageMaker Ground Truth AnnotationConsolidation](events/aws/sagemaker-ground-truth-annotation-consolidation.json)
 * [SageMaker Ground Truth PreHumanTask](events/aws/sagemaker-ground-truth-pre-human.json)
 * [StepFunctions Error](events/aws/stepfunctions-error.json)
+* [Work Mail](events/aws/workmail-email.json)
 
 ### Lex
 
@@ -83,6 +87,9 @@ console.log(myPayload);
 * [Lex Book Hotel](events/lex/lex-book-hotel.json)
 * [Lex Make Appointment](events/lex/lex-make-appointment.json)
 * [Lex Order Flowers](events/lex/lex-order-flowers.json)
+* [Lex V2 Banking Bot](events/lex/lex-v2-banking-bot.json)
+* [Lex V2 Book Car](events/lex/lex-v2-book-car.json)
+* [Lex V2 Book Hotel](events/lex/lex-v2-book-hotel.json)
 
 ### Alexa
 
@@ -91,8 +98,9 @@ console.log(myPayload);
 * [Alexa Intent GetNewFact](events/alexa/alexa-skills-kit-intent-getnewfact.json)
 * [Alexa Intent MyColorIs](events/alexa/alexa-skills-kit-intent-mycoloris.json)
 * [Alexa Intent Recipe](events/alexa/alexa-skills-kit-intent-recipe.json)
-* [Alexa Smart Home - Control](events/alexa/alexa-smart-home-control.json)
 * [Alexa Smart Home Control Turn Off Request](events/alexa/alexa-smart-home-smart-home-control-turn-off-request.json)
 * [Alexa Smart Home Control Turn On Request](events/alexa/alexa-smart-home-smart-home-control-turn-on-request.json)
 * [Alexa Smart Home Discovery Request](events/alexa/alexa-smart-home-smart-home-discovery-request.json)
 * [Alexa Start Session](events/alexa/alexa-skills-kit-start-session.json)
+
+Sample event payloads are copyright Amazon Web Services.
